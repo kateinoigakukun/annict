@@ -6,7 +6,7 @@
 - if browser.device.mobile?
   = render "application/v1/navbar"
 - else
-  = render "application/v2/navbar"
+  = render "application/components/navbar"
 
 .content
   h1 Annictについて
@@ -67,4 +67,4 @@
       | 何かありましたら、Annictの<a href="https://twitter.com/anannict" target="_blank">Twitterアカウント</a>
       | または<a href="mailto:admin@annict.com">admin@annict.com</a>までお願いします。
 
-= render "application/v2/components/footer"
+= render "application/components/footer"
